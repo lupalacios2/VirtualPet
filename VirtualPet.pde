@@ -1,8 +1,35 @@
-
-void setup(){
-  //some of your code here
-}
-void draw(){
-  //more of your code here
+void setup() {
+    size(400, 400);
 }
 
+void draw() {
+  color brown = color(183,137,90  );
+  color peach = color(251,203,139);
+  color black = color(53,52,44);
+  color red   = color(252,108,20);
+
+  fill(brown);
+  noStroke();
+  
+  circle(115, 200, 65);
+  circle(285, 200, 65);
+
+  fill(peach);
+  circle(115, 200, 45);
+  circle(285, 200, 45);
+
+  fill(brown);
+  ellipse(200, 200, 180, 185);
+  
+  fill(peach);
+  ellipse(200, 200, 150, 155);
+  
+  fill(black);
+  ellipse(175, 175, 20, 26);
+  ellipse(225, 175, 20, 26);
+  
+  ellipse(200, 200, 30, 20);
+  
+  fill(red);
+  ellipse(200, 235, 70  , 25);
+}
