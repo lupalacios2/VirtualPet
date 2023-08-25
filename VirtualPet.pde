@@ -1,9 +1,9 @@
 void setup() {
     size(400, 400);
-    noStroke();
 }
 
 void draw() {
+  
   // colors
   color brown = color(183,137,90  );
   color peach = color(251,203,139);
@@ -11,6 +11,7 @@ void draw() {
   color red   = color(252,108,20);
 
   // outer ears
+  noStroke();
   fill(brown);
   circle(115, 200, 65);
   circle(285, 200, 65);
