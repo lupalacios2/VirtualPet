@@ -3,7 +3,6 @@ void setup() {
 }
 
 void draw() {
-  
   // colors
   color brown = color(183,137,90  );
   color peach = color(251,203,139);
