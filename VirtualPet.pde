@@ -1,5 +1,6 @@
 void setup() {
     size(400, 400);
+    noStroke();
 }
 
 void draw() {
@@ -10,15 +11,14 @@ void draw() {
   color red   = color(252,108,20);
 
   // outer ears
-  noStroke();
   fill(brown);
-  circle(115, 200, 65);
-  circle(285, 200, 65);
+  ellipse(115, 200, 65, 65);
+  ellipse(285, 200, 65, 65);
 
   // inner ears
   fill(peach);
-  circle(115, 200, 45);
-  circle(285, 200, 45);
+  ellipse(115, 200, 45, 45);
+  ellipse(285, 200, 45, 45);
 
   // outer head
   fill(brown);
